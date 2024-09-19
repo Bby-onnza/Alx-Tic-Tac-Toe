@@ -7,8 +7,6 @@
 
 
 
-
-
 #include <stdio.h>
 #include <windows.h>
 #include "main.h"
@@ -43,7 +41,7 @@ printf(
 
     if (choice == 'A' || choice == 'a')
     {
-        system("color 0a");
+        system("color 04");
         singlePlayer();
     }
     else if (choice == 'B' || choice == 'b')
